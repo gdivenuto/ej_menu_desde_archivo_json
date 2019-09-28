@@ -1,0 +1,44 @@
+aside {
+    width: 20%;
+    height: 100%;
+    float: left;
+    border-right: 1px dotted darkgrey;
+}
+aside ul li {
+    margin: 5px;
+}
+aside a {
+    font-family: Arial;
+    color: darkgrey;
+    text-decoration: none;
+    font-size: 13px;
+    padding: 10px;
+}
+aside a:hover {
+    background-color: orangered;
+    color: #fff;
+}
+section {
+    width: 80%;
+    height: 100%;
+    float: right;
+}
+
+@media only screen and (max-width: 1024px) {
+    aside {
+        width: 30%;
+    }
+    section {
+        width: 70%;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    aside {
+        width: 100%;
+        border: none;
+    }
+    section {
+        width: 100%;
+    }
+}

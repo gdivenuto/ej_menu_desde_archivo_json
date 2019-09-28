@@ -1,0 +1,36 @@
+{
+    "categorias": [
+        {"id": 100,"nombre": "TV, Audio y Video","subcategorias": []},
+        {
+            "id": 200,
+            "nombre": "Tecnología y Celulares",
+            "subcategorias":[
+                {"id": 200001,"nombre": "Smart TV"},
+                {"id": 200002,"nombre": "Celulares"},
+                {"id": 200003,"nombre": "DVDs"}
+            ]
+        },
+        {"id": 300,"nombre": "Electro y Aires","subcategorias": []},
+        {"id": 400,"nombre": "Hogar","subcategorias": []},
+        {
+            "id": 500,
+            "nombre": "Muebles",
+            "subcategorias": [
+                {"id": 500001,"nombre": "Mesas"},
+                {"id": 500002,"nombre": "Sillas"},
+                {"id": 500003,"nombre": "Modulares"}
+            ]
+        },
+        {"id": 600,"nombre": "Jardinería","subcategorias": []},
+        {"id": 700,"nombre": "Salud y Belleza","subcategorias": []},
+        {
+            "id": 800,
+            "nombre": "Bebés y Niños",
+            "subcategorias": [
+                {"id": 800001,"nombre": "Cunas"},
+                {"id": 800002,"nombre": "Sillas para Coche"},
+                {"id": 800003,"nombre": "Cambiadores"}
+            ]
+        }
+    ]
+}
